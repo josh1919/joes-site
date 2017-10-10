@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
 
 <body>
+
     <header>
-        <div class="openMenu">
-            <div class="decoMenuopen" style="background: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255);"></div>
-            <div class="decoMenuopen" style="background: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255);"></div>
-            <div class="decoMenuopen" style="background: rgb(255, 255, 255); border: 1px solid rgb(255, 255, 255);"></div>
-            <p style="color: rgb(255, 255, 255);">Menu</p>
-        </div>
-        <h2>logo on top of photo</h2>
-        <h3>nav choices but no bar</h3>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">JOEM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample03">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
     </header>
-    <section class='intro'> 
+
+    <section id="about" class="intro">
         <h1>Intro section</h1>
         <h2>search</h2>
         <h2>rescue</h2>
@@ -25,8 +41,8 @@
         <h3>Always win at hide and seek</h3>
         <h4>as it slides up and down footprints fade into view</h4>
     </section>
-    <section class= "will-learn">
-        <h1 >classes and structure</h1>
+    <section class="will-learn">
+        <h1>classes and structure</h1>
         <h3>Some things you'll learn about</h3>
         <div class='lessons'>
             <!--is in a row only on wider viewports -->
@@ -35,11 +51,11 @@
             <div class="lesson">box for ?discolorations?</div>
         </div>
     </section>
-    <section class='intro'>
+    <section id="contact" class='intro'>
         LoremIpsum
     </section>
 </body>
-<script>
+<!-- <script>
     const menuHover = document.querySelector('.openMenu');
 
     function menuUp() {
@@ -52,7 +68,11 @@
 
     menuHover.addEventListener("mouseenter", menuUp);
     menuHover.addEventListener("mouseleave", menuClose);
-    menuHover.addEventListener("click", function(){alert('menu will come down on click')});
+    menuHover.addEventListener("click", function(){alert('menu will come down on click')}); -->
 </script>
+<!-- TODO: These asset files need to be done using the cdm -->
+<script src="asset_files/jquery-3.2.1.slim.min.js"></script>
+<script src="asset_files/bootstrap.min.js"></script>
+<script src="asset_files/popper.min.js"></script>
 
 </html>
