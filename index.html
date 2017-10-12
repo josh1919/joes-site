@@ -46,31 +46,38 @@
         <h3>Some things you'll learn about</h3>
         <div class='lessons'>
             <!--is in a row only on wider viewports -->
-            <div class="lesson">box for footprints</div>
-            <div class="lesson">box for Disturbances</div>
-            <div class="lesson">box for ?discolorations?</div>
+            <div class="lesson lesson1">box for footprints</div>
+            <div class="lesson lesson2">box for Disturbances</div>
+            <div class="lesson lesson3">box for ?discolorations?</div>
         </div>
     </section>
     <section id="contact" class='intro'>
-        LoremIpsum
+        <h1>Contact</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Phone">
+            </div>
+            <div class="form-group">
+                <label for="qorc">Questions or comments</label>
+                <input type="text" class="form-control" id="qorc" placeholder="Questions or comments">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </section>
 </body>
-<!-- <script>
-    const menuHover = document.querySelector('.openMenu');
 
-    function menuUp() {
-        console.log('menu hover on mouse enter')
-    }
 
-    function menuClose() {
-        console.log('menu hover on mouse leave')
-    }
-
-    menuHover.addEventListener("mouseenter", menuUp);
-    menuHover.addEventListener("mouseleave", menuClose);
-    menuHover.addEventListener("click", function(){alert('menu will come down on click')}); -->
-</script>
-<!-- TODO: These asset files need to be done using the cdm -->
+<!-- TODO: These asset files need to be done using the cdm This so so I don't have issues when editing offline-->
 <script src="asset_files/jquery-3.2.1.slim.min.js"></script>
 <script src="asset_files/bootstrap.min.js"></script>
 <script src="asset_files/popper.min.js"></script>

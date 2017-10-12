@@ -1,7 +1,6 @@
 .intro {
     margin: 20px;
-    padding-top: 10px;
-    padding-left: 20px;
+    padding: 10px 20px 10px 20px;
     height: 600px;
     background-color: rgb(85, 218, 178);
 }
@@ -93,8 +92,12 @@ Section: will-learn
     width: 300px;
     margin: 15px;
     padding: 15px;
-    /* background-color: #BADA55; */
-    background:url('../img/bootprint.svg');
-    background-size: 250px 250px;
-
 }
+
+.lesson1 {
+        /* background-color: #BADA55; */
+        background:url('../img/bootprint.svg');
+        background-size: 250px 250px;
+        background-repeat: no-repeat;
+}
+
