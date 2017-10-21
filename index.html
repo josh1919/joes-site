@@ -32,7 +32,7 @@
         </nav>
     </header>
 
-    <section id="about" class="intro">
+    <section id="about container">
         <h1>Intro section</h1>
         <h2>search</h2>
         <h2>rescue</h2>
@@ -41,14 +41,14 @@
         <h3>Always win at hide and seek</h3>
         <h4>as it slides up and down footprints fade into view</h4>
     </section>
-    <section class="will-learn">
+    <section class="will-learn container">
         <h1>classes and structure</h1>
         <h3>Some things you'll learn about</h3>
-        <div class='lessons'>
-            <!--is in a row only on wider viewports -->
-            <div class="lesson lesson1">box for footprints</div>
-            <div class="lesson lesson2">box for Disturbances</div>
-            <div class="lesson lesson3">box for ?discolorations?</div>
+        <div class='row lessons'>
+            <!-- row is only on wider viewports -->
+            <div class="lesson lesson1 col-xs-12 col-md-6 col-lg-4">box for footprints</div>
+            <div class="lesson lesson2 col-xs-12 col-md-6 col-lg-4">box for Disturbances</div>
+            <div class="lesson lesson3 col-xs-12 col-md-6 col-lg-4">box for ?discolorations?</div>
         </div>
     </section>
     <section id="contact" class='intro'>
@@ -61,7 +61,6 @@
             <div class="form-group">
                 <label for="email">Email</label>
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
-                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
             </div>
             <div class="form-group">
                 <label for="phone">Phone</label>
@@ -81,5 +80,6 @@
 <script src="asset_files/jquery-3.2.1.slim.min.js"></script>
 <script src="asset_files/bootstrap.min.js"></script>
 <script src="asset_files/popper.min.js"></script>
+<script src="my.js"></script>
 
 </html>
