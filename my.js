@@ -30,4 +30,16 @@ function lessonRotate(e) {
   })
 }
 
+function applyMeasurements() {
+  const headerHeight = document.querySelector('header').clientHeight;
+  const windowSize = window.innerHeight;
+  const sectionMinHeights = windowSize - headerHeight;
+
+  const changesToMake = document.querySelectorAll('.myContainer');
+
+  changesToMake.forEach(element => element.style.minHeight = sectionMinHeights + 'px');
+  console.log('cssChanges: ' + cssChanges);
+}
+
+window.addEventListener('load', applyMeasurements)
 window.addEventListener('scroll', debounce(lessonRotate));
