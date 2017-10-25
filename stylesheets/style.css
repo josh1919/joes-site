@@ -23,7 +23,7 @@ header {
 
 /* 
 #####################################
-Section: will-learn
+Section: lesson Structure
 #####################################
 */
 
@@ -49,9 +49,6 @@ Section: will-learn
         background-repeat: no-repeat;
 }
 
-/* .lesson1:hover {
-    transform: rotate(0deg);
-} */
 
 .straighten {
     transform: rotate(0deg);
