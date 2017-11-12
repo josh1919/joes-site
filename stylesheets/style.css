@@ -1,7 +1,8 @@
 section {
     margin: 20px;
     padding: 10px 20px 10px 20px;
-    background-color: #ffd38e;
+    background-color: #d1d1d1;
+    border-bottom:3px solid #f80000;
 }
 
 section h1 {
@@ -18,7 +19,10 @@ header {
     background-image: url("../img/NEEDTOREPLACETrail-003.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-
+    border-bottom:3px solid #f80000;
+}
+.navbar-brand {
+    font-size: 40px;
 }
 
 /* 

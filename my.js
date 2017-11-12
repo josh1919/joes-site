@@ -41,5 +41,5 @@ function applyMeasurements() {
   console.log('cssChanges: ' + cssChanges);
 }
 
-window.addEventListener('load', applyMeasurements)
-window.addEventListener('scroll', debounce(lessonRotate));
+// window.addEventListener('load', applyMeasurements)
+// window.addEventListener('scroll', debounce(lessonRotate));
